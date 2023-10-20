@@ -9,7 +9,7 @@ public class Ejercicio4B extends TestBase2{
     public void verifyPregunta3() throws InterruptedException {
         mainPage.loginButton.click();
         loginSection.emailTxtBox.setText("renucoExtra123@gmail.com");
-        loginSection.pwdTxtBox.setText("12345"); //Cambiar despues de correr el test
+        loginSection.pwdTxtBox.setText("123456"); //Cambiar despues de correr el test
         loginSection.loginButton.click();
 
         Thread.sleep(3000);
@@ -19,8 +19,8 @@ public class Ejercicio4B extends TestBase2{
         Thread.sleep(3000);
 
 
-        settingsSection.oldPwdTxtBox.setText("12345");
-        settingsSection.newPwdTxtBox.setText("123456");
+        settingsSection.oldPwdTxtBox.setText("123456");
+        settingsSection.newPwdTxtBox.setText("12345");
 
         settingsSection.saveButton.click();
 
@@ -32,7 +32,7 @@ public class Ejercicio4B extends TestBase2{
 
         mainPage.loginButton.click();
         loginSection.emailTxtBox.setText("renucoExtra123@gmail.com");
-        loginSection.pwdTxtBox.setText("123456");
+        loginSection.pwdTxtBox.setText("12345");
         loginSection.loginButton.click();
 
         Thread.sleep(5000);
